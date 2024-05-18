@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (husky_tf_broadcaster) JobQueued: {'identifier': 'husky_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.000197] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000906] (husky_tf_broadcaster) JobStarted: {'identifier': 'husky_tf_broadcaster'}
+[0.104862] (-) TimerEvent: {}
+[0.205667] (-) TimerEvent: {}
+[0.305944] (-) TimerEvent: {}
+[0.406269] (-) TimerEvent: {}
+[0.506897] (-) TimerEvent: {}
+[0.607561] (-) TimerEvent: {}
+[0.707904] (-) TimerEvent: {}
+[0.766901] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.809035] (-) TimerEvent: {}
+[0.910467] (-) TimerEvent: {}
+[1.013927] (-) TimerEvent: {}
+[1.115843] (-) TimerEvent: {}
+[1.216896] (-) TimerEvent: {}
+[1.319243] (-) TimerEvent: {}
+[1.420863] (-) TimerEvent: {}
+[1.522851] (-) TimerEvent: {}
+[1.624475] (-) TimerEvent: {}
+[1.704703] (husky_tf_broadcaster) JobProgress: {'identifier': 'husky_tf_broadcaster', 'progress': 'cmake'}
+[1.705720] (husky_tf_broadcaster) JobProgress: {'identifier': 'husky_tf_broadcaster', 'progress': 'build'}
+[1.707028] (husky_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', '--', '-j8', '-l8'], 'cwd': '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akyatha'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/akyatha'), ('OLDPWD', '/home/akyatha'), ('DESKTOP_SESSION', 'ubuntu'), ('DO14IP', '10.121.0.131'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.121.4.188'), ('MANAGERPID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3759'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/akyatha/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'akyatha'), ('JOURNAL_STREAM', '8:48854'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akyatha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2394,unix/akyatha-G3-3579:/tmp/.ICE-unix/2394'), ('INVOCATION_ID', '49dd044f99be4fce8e2f6a5d54831263'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:531260af-f5b9-4bb4-9946-89677afec054'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://198.21.233.33:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '198.21.233.33'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[1.724665] (-) TimerEvent: {}
+[1.825156] (-) TimerEvent: {}
+[1.925706] (-) TimerEvent: {}
+[2.026011] (-) TimerEvent: {}
+[2.127582] (-) TimerEvent: {}
+[2.228673] (-) TimerEvent: {}
+[2.329361] (-) TimerEvent: {}
+[2.429994] (-) TimerEvent: {}
+[2.530609] (-) TimerEvent: {}
+[2.631155] (-) TimerEvent: {}
+[2.732137] (-) TimerEvent: {}
+[2.832539] (-) TimerEvent: {}
+[2.891918] (husky_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target husky_tf_broadcaster\x1b[0m\n'}
+[2.893035] (husky_tf_broadcaster) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o\x1b[0m\n'}
+[2.932804] (-) TimerEvent: {}
+[3.033412] (-) TimerEvent: {}
+[3.133710] (-) TimerEvent: {}
+[3.235474] (-) TimerEvent: {}
+[3.335771] (-) TimerEvent: {}
+[3.436310] (-) TimerEvent: {}
+[3.536763] (-) TimerEvent: {}
+[3.637330] (-) TimerEvent: {}
+[3.737749] (-) TimerEvent: {}
+[3.838102] (-) TimerEvent: {}
+[3.938676] (-) TimerEvent: {}
+[3.987879] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/build', 'install', '--record', '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed'], 'cwd': '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akyatha', 'SSH_AGENT_PID': '2356', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/akyatha', 'OLDPWD': '/home/akyatha', 'DESKTOP_SESSION': 'ubuntu', 'DO14IP': '10.121.0.131', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '10.121.4.188', 'MANAGERPID': '2137', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3759', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/akyatha/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'akyatha', 'JOURNAL_STREAM': '8:48854', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akyatha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2394,unix/akyatha-G3-3579:/tmp/.ICE-unix/2394', 'INVOCATION_ID': '49dd044f99be4fce8e2f6a5d54831263', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:531260af-f5b9-4bb4-9946-89677afec054', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://198.21.233.33:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'ROS_HOSTNAME': '198.21.233.33', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/akyatha/colcon_ws/install/husky_tf_broadcaster'}, 'shell': False}
+[4.038898] (-) TimerEvent: {}
+[4.139468] (-) TimerEvent: {}
+[4.226238] (ros_tcp_endpoint) StderrLine: {'line': b'/home/akyatha/.local/lib/python3.8/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[4.227143] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.227276] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.227357] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.227432] (ros_tcp_endpoint) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[4.227505] (ros_tcp_endpoint) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[4.227577] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.227648] (ros_tcp_endpoint) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[4.227719] (ros_tcp_endpoint) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[4.228288] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.228631] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[4.228707] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.228778] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.228851] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.228957] (ros_tcp_endpoint) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[4.239555] (-) TimerEvent: {}
+[4.339864] (-) TimerEvent: {}
+[4.394529] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[4.425400] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[4.426103] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[4.426579] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[4.427139] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[4.427474] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[4.440010] (-) TimerEvent: {}
+[4.540683] (-) TimerEvent: {}
+[4.641011] (-) TimerEvent: {}
+[4.653791] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[4.654159] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.656056] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[4.656414] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[4.656652] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[4.656874] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/__init__.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.657238] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/tcp_sender.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.657539] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/service.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.658103] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/default_server_endpoint.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.658441] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/server.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.658888] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/client.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.659264] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/communication.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.659910] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/exceptions.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.660489] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/publisher.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.660861] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/subscriber.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.661097] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/unity_service.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.661351] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/thread_pauser.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.662113] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[4.662368] (ros_tcp_endpoint) StderrLine: {'line': b'/home/akyatha/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[4.662519] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.662657] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.662785] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.662901] (ros_tcp_endpoint) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[4.663033] (ros_tcp_endpoint) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[4.663156] (ros_tcp_endpoint) StderrLine: {'line': b'        standards-based tools.\n'}
+[4.663281] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.663410] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[4.663539] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.663663] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.663784] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.663899] (ros_tcp_endpoint) StderrLine: {'line': b'  self.initialize_options()\n'}
+[4.673140] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[4.700612] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[4.727445] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[4.727763] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[4.728027] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[4.728681] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.741113] (-) TimerEvent: {}
+[4.757103] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[4.757563] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[4.758766] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[4.838067] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[4.838764] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log'\n"}
+[4.841254] (-) TimerEvent: {}
+[4.889455] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[4.941735] (-) TimerEvent: {}
+[5.043072] (-) TimerEvent: {}
+[5.143385] (-) TimerEvent: {}
+[5.244021] (-) TimerEvent: {}
+[5.346410] (-) TimerEvent: {}
+[5.447425] (-) TimerEvent: {}
+[5.547636] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[5.548186] (-) TimerEvent: {}
+[5.648471] (-) TimerEvent: {}
+[5.748857] (-) TimerEvent: {}
+[5.849284] (-) TimerEvent: {}
+[5.949542] (-) TimerEvent: {}
+[6.049811] (-) TimerEvent: {}
+[6.150117] (-) TimerEvent: {}
+[6.250437] (-) TimerEvent: {}
+[6.351089] (-) TimerEvent: {}
+[6.451521] (-) TimerEvent: {}
+[6.552150] (-) TimerEvent: {}
+[6.652882] (-) TimerEvent: {}
+[6.753604] (-) TimerEvent: {}
+[6.854108] (-) TimerEvent: {}
+[6.954436] (-) TimerEvent: {}
+[7.054805] (-) TimerEvent: {}
+[7.155204] (-) TimerEvent: {}
+[7.255704] (-) TimerEvent: {}
+[7.356260] (-) TimerEvent: {}
+[7.456616] (-) TimerEvent: {}
+[7.557117] (-) TimerEvent: {}
+[7.657607] (-) TimerEvent: {}
+[7.758057] (-) TimerEvent: {}
+[7.858323] (-) TimerEvent: {}
+[7.958592] (-) TimerEvent: {}
+[8.058904] (-) TimerEvent: {}
+[8.159241] (-) TimerEvent: {}
+[8.259530] (-) TimerEvent: {}
+[8.359966] (-) TimerEvent: {}
+[8.460278] (-) TimerEvent: {}
+[8.560723] (-) TimerEvent: {}
+[8.661085] (-) TimerEvent: {}
+[8.761357] (-) TimerEvent: {}
+[8.861665] (-) TimerEvent: {}
+[8.962087] (-) TimerEvent: {}
+[9.062591] (-) TimerEvent: {}
+[9.162977] (-) TimerEvent: {}
+[9.263335] (-) TimerEvent: {}
+[9.363706] (-) TimerEvent: {}
+[9.464035] (-) TimerEvent: {}
+[9.564393] (-) TimerEvent: {}
+[9.664696] (-) TimerEvent: {}
+[9.765084] (-) TimerEvent: {}
+[9.865520] (-) TimerEvent: {}
+[9.965789] (-) TimerEvent: {}
+[10.066078] (-) TimerEvent: {}
+[10.166376] (-) TimerEvent: {}
+[10.206183] (husky_tf_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable husky_tf_broadcaster\x1b[0m\n'}
+[10.266518] (-) TimerEvent: {}
+[10.366947] (-) TimerEvent: {}
+[10.467206] (-) TimerEvent: {}
+[10.567521] (-) TimerEvent: {}
+[10.667974] (-) TimerEvent: {}
+[10.692233] (husky_tf_broadcaster) StdoutLine: {'line': b'[100%] Built target husky_tf_broadcaster\n'}
+[10.705558] (husky_tf_broadcaster) CommandEnded: {'returncode': 0}
+[10.740035] (husky_tf_broadcaster) JobProgress: {'identifier': 'husky_tf_broadcaster', 'progress': 'install'}
+[10.757879] (husky_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster'], 'cwd': '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akyatha'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/akyatha'), ('OLDPWD', '/home/akyatha'), ('DESKTOP_SESSION', 'ubuntu'), ('DO14IP', '10.121.0.131'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.121.4.188'), ('MANAGERPID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3759'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/akyatha/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'akyatha'), ('JOURNAL_STREAM', '8:48854'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akyatha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2394,unix/akyatha-G3-3579:/tmp/.ICE-unix/2394'), ('INVOCATION_ID', '49dd044f99be4fce8e2f6a5d54831263'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:531260af-f5b9-4bb4-9946-89677afec054'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://198.21.233.33:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '198.21.233.33'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[10.768092] (-) TimerEvent: {}
+[10.769557] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.769862] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib/husky_tf_broadcaster/husky_tf_broadcaster\n'}
+[10.773244] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib/husky_tf_broadcaster/husky_tf_broadcaster" to ""\n'}
+[10.773982] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/launch\n'}
+[10.774134] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/launch/tf2_tranforms.launch.xml\n'}
+[10.774261] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/husky_tf_broadcaster\n'}
+[10.774373] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/husky_tf_broadcaster\n'}
+[10.774452] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/ament_prefix_path.sh\n'}
+[10.774518] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/ament_prefix_path.dsv\n'}
+[10.774605] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/path.sh\n'}
+[10.774708] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/path.dsv\n'}
+[10.774774] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.bash\n'}
+[10.774837] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.sh\n'}
+[10.774901] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.zsh\n'}
+[10.774964] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.dsv\n'}
+[10.775039] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.dsv\n'}
+[10.775157] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/ament_index/resource_index/packages/husky_tf_broadcaster\n'}
+[10.775278] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/cmake/husky_tf_broadcasterConfig.cmake\n'}
+[10.775349] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/cmake/husky_tf_broadcasterConfig-version.cmake\n'}
+[10.775435] (husky_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.xml\n'}
+[10.777150] (husky_tf_broadcaster) CommandEnded: {'returncode': 0}
+[10.868777] (-) TimerEvent: {}
+[10.969032] (-) TimerEvent: {}
+[11.069499] (-) TimerEvent: {}
+[11.170069] (-) TimerEvent: {}
+[11.270826] (-) TimerEvent: {}
+[11.371552] (-) TimerEvent: {}
+[11.471991] (-) TimerEvent: {}
+[11.573195] (-) TimerEvent: {}
+[11.673623] (-) TimerEvent: {}
+[11.779057] (-) TimerEvent: {}
+[11.881146] (-) TimerEvent: {}
+[11.981771] (-) TimerEvent: {}
+[12.082407] (-) TimerEvent: {}
+[12.159700] (husky_tf_broadcaster) JobEnded: {'identifier': 'husky_tf_broadcaster', 'rc': 0}
+[12.160857] (-) EventReactorShutdown: {}

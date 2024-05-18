@@ -1,0 +1,60 @@
+[2.282s] Invoking command in '/home/akyatha/colcon_ws/build/husky_rycsv': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_rycsv -- -j8 -l8
+[3.463s] [100%] Built target urdf_publisher
+[3.464s] Invoked command in '/home/akyatha/colcon_ws/build/husky_rycsv' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_rycsv -- -j8 -l8
+[3.524s] Invoking command in '/home/akyatha/colcon_ws/build/husky_rycsv': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_rycsv
+[3.542s] -- Install configuration: ""
+[3.542s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/launch
+[3.542s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/launch/husky_simulation.launch.xml
+[3.542s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/config
+[3.543s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/rviz
+[3.543s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf
+[3.543s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/sick_lms1xx.urdf.xacro
+[3.543s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/husky.urdf
+[3.543s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/accessories
+[3.544s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/accessories/sensor_arch.urdf.xacro
+[3.544s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/accessories/sick_lms1xx_mount.urdf.xacro
+[3.544s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/decorations.urdf.xacro
+[3.544s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/wheel.urdf.xacro
+[3.545s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/urdf/husky.urdf.xacro
+[3.545s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes
+[3.545s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/base_link.stl
+[3.545s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/top_plate.dae
+[3.546s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/top_chassis.stl
+[3.546s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/wheel.stl
+[3.547s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/user_rail.stl
+[3.547s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/wheel.dae
+[3.547s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/sick-lms1xx.dae
+[3.548s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/bumper.dae
+[3.549s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories
+[3.551s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories/300_mm_sensor_arch.stl
+[3.552s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories/510_mm_sensor_arch.dae
+[3.553s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories/510_mm_sensor_arch.stl
+[3.553s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories/300_mm_sensor_arch.dae
+[3.553s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories/lidar_mount.stl
+[3.554s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories/lms1xx_mount.dae
+[3.555s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/accessories/lms1xx_mount.stl
+[3.555s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/sick-lms1xx.stl
+[3.556s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/base_link.dae
+[3.556s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/top_chassis.dae
+[3.557s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/large_top_plate.dae
+[3.557s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/top_plate.stl
+[3.558s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/user_rail.dae
+[3.558s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/large_top_plate_collision.stl
+[3.558s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/meshes/bumper_extension.dae
+[3.559s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/lib/husky_rycsv/urdf_publisher
+[3.559s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/ament_index/resource_index/package_run_dependencies/husky_rycsv
+[3.559s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/ament_index/resource_index/parent_prefix_path/husky_rycsv
+[3.559s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/environment/ament_prefix_path.sh
+[3.559s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/environment/ament_prefix_path.dsv
+[3.560s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/environment/path.sh
+[3.560s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/environment/path.dsv
+[3.560s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/local_setup.bash
+[3.561s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/local_setup.sh
+[3.561s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/local_setup.zsh
+[3.562s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/local_setup.dsv
+[3.562s] -- Installing: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.dsv
+[3.563s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/ament_index/resource_index/packages/husky_rycsv
+[3.563s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/cmake/husky_rycsvConfig.cmake
+[3.563s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/cmake/husky_rycsvConfig-version.cmake
+[3.564s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.xml
+[3.564s] Invoked command in '/home/akyatha/colcon_ws/build/husky_rycsv' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_rycsv

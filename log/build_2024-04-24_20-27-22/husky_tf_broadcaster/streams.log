@@ -1,0 +1,11 @@
+[1.500s] Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[1.573s] [35m[1mScanning dependencies of target husky_tf_broadcaster[0m
+[1.615s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o[0m
+[1.651s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:70:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/TransformStamped.hpp: No such file or directory
+[1.651s]    70 | #include [01;31m[K<geometry_msgs/msg/TransformStamped.hpp>[m[K
+[1.651s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.651s] compilation terminated.
+[1.653s] make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+[1.653s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+[1.654s] make: *** [Makefile:141: all] Error 2
+[2.481s] Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8

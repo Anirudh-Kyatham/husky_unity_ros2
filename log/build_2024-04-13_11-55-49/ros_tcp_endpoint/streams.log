@@ -1,0 +1,35 @@
+[0.511s] Invoking command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint': /usr/bin/cmake /home/akyatha/colcon_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/ros_tcp_endpoint
+[0.724s] -- The C compiler identification is GNU 9.4.0
+[0.994s] -- The CXX compiler identification is GNU 9.4.0
+[1.012s] -- Check for working C compiler: /usr/bin/cc
+[1.088s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.092s] -- Detecting C compiler ABI info
+[1.192s] -- Detecting C compiler ABI info - done
+[1.217s] -- Detecting C compile features
+[1.218s] -- Detecting C compile features - done
+[1.224s] -- Check for working CXX compiler: /usr/bin/c++
+[1.330s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.332s] -- Detecting CXX compiler ABI info
+[1.435s] -- Detecting CXX compiler ABI info - done
+[1.456s] -- Detecting CXX compile features
+[1.456s] -- Detecting CXX compile features - done
+[1.472s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.472s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.472s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.472s]   CMake did not find one.
+[1.472s] 
+[1.473s]   Could not find a package configuration file provided by "catkin" with any
+[1.473s]   of the following names:
+[1.473s] 
+[1.473s]     catkinConfig.cmake
+[1.473s]     catkin-config.cmake
+[1.473s] 
+[1.473s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.473s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.473s]   provides a separate development package or SDK, be sure it has been
+[1.473s]   installed.
+[1.473s] 
+[1.473s] 
+[1.473s] -- Configuring incomplete, errors occurred!
+[1.474s] See also "/home/akyatha/colcon_ws/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[1.476s] Invoked command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /home/akyatha/colcon_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/ros_tcp_endpoint

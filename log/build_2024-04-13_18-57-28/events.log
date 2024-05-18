@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000275] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000297] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.100545] (-) TimerEvent: {}
+[0.201388] (-) TimerEvent: {}
+[0.302850] (-) TimerEvent: {}
+[0.404433] (-) TimerEvent: {}
+[0.437517] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.504591] (-) TimerEvent: {}
+[0.605351] (-) TimerEvent: {}
+[0.705857] (-) TimerEvent: {}
+[0.806222] (-) TimerEvent: {}
+[0.906595] (-) TimerEvent: {}
+[1.006917] (-) TimerEvent: {}
+[1.107243] (-) TimerEvent: {}
+[1.207723] (-) TimerEvent: {}
+[1.236321] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[1.237257] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/akyatha/colcon_ws/src/slam_toolbox', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox'], 'cwd': '/home/akyatha/colcon_ws/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akyatha'), ('SSH_AGENT_PID', '2349'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/akyatha'), ('OLDPWD', '/home/akyatha/colcon_ws/src/slam_toolbox'), ('DESKTOP_SESSION', 'ubuntu'), ('DO14IP', '10.121.0.131'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.121.4.188'), ('MANAGERPID', '2129'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=905fb040adc54d9767208230661a7576'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'akyatha'), ('JOURNAL_STREAM', '8:44789'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akyatha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2387,unix/akyatha-G3-3579:/tmp/.ICE-unix/2387'), ('INVOCATION_ID', '31b25c7b865048939f150605d470c9eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd9022fa_a40f_4bd1_a64b_766ee42630f9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://198.21.233.33:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akyatha/colcon_ws/build/slam_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=905fb040adc54d9767208230661a7576'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '198.21.233.33'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.253386] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.273712] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.307843] (-) TimerEvent: {}
+[1.408152] (-) TimerEvent: {}
+[1.436081] (slam_toolbox) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.443065] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[1.445475] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.464633] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.467934] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.508268] (-) TimerEvent: {}
+[1.581110] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.608384] (-) TimerEvent: {}
+[1.708591] (-) TimerEvent: {}
+[1.739342] (slam_toolbox) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.778102] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.779674] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.808720] (-) TimerEvent: {}
+[1.833464] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/build', '--no-deps', 'install_data'], 'cwd': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akyatha', 'SSH_AGENT_PID': '2349', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/akyatha', 'OLDPWD': '/home/akyatha/colcon_ws/src/slam_toolbox', 'DESKTOP_SESSION': 'ubuntu', 'DO14IP': '10.121.0.131', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '10.121.4.188', 'MANAGERPID': '2129', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=905fb040adc54d9767208230661a7576', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'akyatha', 'JOURNAL_STREAM': '8:44789', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akyatha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2387,unix/akyatha-G3-3579:/tmp/.ICE-unix/2387', 'INVOCATION_ID': '31b25c7b865048939f150605d470c9eb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cd9022fa_a40f_4bd1_a64b_766ee42630f9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.278', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://198.21.233.33:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=905fb040adc54d9767208230661a7576', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'ROS_HOSTNAME': '198.21.233.33', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.908835] (-) TimerEvent: {}
+[1.922221] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.961361] (ros_tcp_endpoint) StderrLine: {'line': b'/home/akyatha/.local/lib/python3.8/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[1.961595] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[1.961716] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.961822] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.961926] (ros_tcp_endpoint) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[1.962030] (ros_tcp_endpoint) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[1.962134] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.962244] (ros_tcp_endpoint) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[1.962346] (ros_tcp_endpoint) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[1.962478] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.962596] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[1.962714] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.962830] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.962945] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[1.963059] (ros_tcp_endpoint) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.003171] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.008895] (-) TimerEvent: {}
+[2.012690] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[2.108989] (-) TimerEvent: {}
+[2.164572] (ros_tcp_endpoint) StdoutLine: {'line': b'running develop\n'}
+[2.164945] (ros_tcp_endpoint) StderrLine: {'line': b'/home/akyatha/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.165106] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[2.165230] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[2.165348] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.165528] (ros_tcp_endpoint) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.165656] (ros_tcp_endpoint) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.165781] (ros_tcp_endpoint) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.165903] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[2.166035] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.166165] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.166287] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[2.166414] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[2.166542] (ros_tcp_endpoint) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.196959] (ros_tcp_endpoint) StderrLine: {'line': b'/home/akyatha/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[2.197161] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[2.197273] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[2.197375] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.197488] (ros_tcp_endpoint) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[2.197594] (ros_tcp_endpoint) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.197696] (ros_tcp_endpoint) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.197795] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[2.197899] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[2.198000] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.198099] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[2.198195] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[2.198293] (ros_tcp_endpoint) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.209064] (-) TimerEvent: {}
+[2.309292] (-) TimerEvent: {}
+[2.343463] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.360436] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[2.374641] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[2.375027] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[2.375224] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[2.375376] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ros_tcp_endpoint.egg-info/requires.txt\n'}
+[2.375521] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[2.406739] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[2.407629] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[2.409358] (-) TimerEvent: {}
+[2.417113] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[2.433226] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[2.439327] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.458188] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_ext\n'}
+[2.458404] (ros_tcp_endpoint) StdoutLine: {'line': b'Creating /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros-tcp-endpoint.egg-link (link to .)\n'}
+[2.458978] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[2.459231] (ros_tcp_endpoint) StdoutLine: {'line': b'\n'}
+[2.459395] (ros_tcp_endpoint) StdoutLine: {'line': b'Installed /home/akyatha/colcon_ws/build/ros_tcp_endpoint\n'}
+[2.459511] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[2.459658] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[2.459801] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[2.459907] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[2.467404] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[2.484341] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[2.487688] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[2.494571] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.504613] (slam_toolbox) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[2.509513] (-) TimerEvent: {}
+[2.514402] (slam_toolbox) StdoutLine: {'line': b'-- Found bondcpp: 2.1.0 (/opt/ros/foxy/share/bondcpp/cmake)\n'}
+[2.583743] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[2.595241] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.597593] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.597880] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.598139] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.598367] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.598705] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.598985] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.599237] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[2.599474] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.599689] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.599910] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.600159] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.600372] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.600610] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.601421] (slam_toolbox) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[2.609628] (-) TimerEvent: {}
+[2.638203] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.638787] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.640557] (slam_toolbox) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[2.658369] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.709760] (-) TimerEvent: {}
+[2.729651] (slam_toolbox) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[2.736644] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[2.809847] (-) TimerEvent: {}
+[2.910703] (-) TimerEvent: {}
+[2.918490] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[3.010840] (-) TimerEvent: {}
+[3.096721] (slam_toolbox) StdoutLine: {'line': b'-- Found CHOLMOD: /usr/include/suitesparse  \n'}
+[3.098224] (slam_toolbox) StdoutLine: {'line': b'-- Found CSparse: /usr/include/suitesparse  \n'}
+[3.110962] (-) TimerEvent: {}
+[3.136997] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[3.200058] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[3.211072] (-) TimerEvent: {}
+[3.230035] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[3.302544] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[3.302917] (slam_toolbox) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[3.305580] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[3.311183] (-) TimerEvent: {}
+[3.372351] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[3.380389] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[3.411282] (-) TimerEvent: {}
+[3.502935] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - found\n'}
+[3.503223] (slam_toolbox) StdoutLine: {'line': b'-- A library with LAPACK API found.\n'}
+[3.511382] (-) TimerEvent: {}
+[3.515520] (slam_toolbox) StderrLine: {'line': b'CMake Error at CMakeLists.txt:90 (find_package):\n'}
+[3.515644] (slam_toolbox) StderrLine: {'line': b'  By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.515712] (slam_toolbox) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Ceres", but\n'}
+[3.515774] (slam_toolbox) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.515839] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.515898] (slam_toolbox) StderrLine: {'line': b'  Could not find a package configuration file provided by "Ceres" with any of\n'}
+[3.515957] (slam_toolbox) StderrLine: {'line': b'  the following names:\n'}
+[3.516014] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.516072] (slam_toolbox) StderrLine: {'line': b'    CeresConfig.cmake\n'}
+[3.516130] (slam_toolbox) StderrLine: {'line': b'    ceres-config.cmake\n'}
+[3.516187] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.516245] (slam_toolbox) StderrLine: {'line': b'  Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set\n'}
+[3.516302] (slam_toolbox) StderrLine: {'line': b'  "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"\n'}
+[3.516359] (slam_toolbox) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.516415] (slam_toolbox) StderrLine: {'line': b'  installed.\n'}
+[3.516472] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.516529] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.519357] (slam_toolbox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.519455] (slam_toolbox) StdoutLine: {'line': b'See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".\n'}
+[3.519518] (slam_toolbox) StdoutLine: {'line': b'See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeError.log".\n'}
+[3.529151] (slam_toolbox) CommandEnded: {'returncode': 1}
+[3.611629] (-) TimerEvent: {}
+[3.712038] (-) TimerEvent: {}
+[3.743849] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 1}
+[3.755027] (-) EventReactorShutdown: {}

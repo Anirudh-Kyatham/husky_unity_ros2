@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/akyatha/colcon_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++  -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/akyatha/colcon_ws/src/kiss-icp/cpp -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/tessil-src/include -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -std=gnu++17 -o CMakeFiles/kiss_icp_core.dir/Registration.cpp.o -c /home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp",
+  "file": "/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp"
+},
+{
+  "directory": "/home/akyatha/colcon_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++  -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/akyatha/colcon_ws/src/kiss-icp/cpp -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/tessil-src/include -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -std=gnu++17 -o CMakeFiles/kiss_icp_core.dir/Deskew.cpp.o -c /home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Deskew.cpp",
+  "file": "/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Deskew.cpp"
+},
+{
+  "directory": "/home/akyatha/colcon_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++  -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/akyatha/colcon_ws/src/kiss-icp/cpp -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/tessil-src/include -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -std=gnu++17 -o CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o -c /home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp",
+  "file": "/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp"
+},
+{
+  "directory": "/home/akyatha/colcon_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++  -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/akyatha/colcon_ws/src/kiss-icp/cpp -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/tessil-src/include -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -std=gnu++17 -o CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o -c /home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp",
+  "file": "/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp"
+},
+{
+  "directory": "/home/akyatha/colcon_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++  -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/akyatha/colcon_ws/src/kiss-icp/cpp -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/tessil-src/include -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -std=gnu++17 -o CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o -c /home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp",
+  "file": "/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp"
+},
+{
+  "directory": "/home/akyatha/colcon_ws/build/kiss_icp/kiss_icp/metrics",
+  "command": "/usr/bin/c++   -I/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/metrics -I/home/akyatha/colcon_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -std=gnu++17 -o CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o -c /home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp",
+  "file": "/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp"
+},
+{
+  "directory": "/home/akyatha/colcon_ws/build/kiss_icp/kiss_icp/pipeline",
+  "command": "/usr/bin/c++  -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/pipeline -I/home/akyatha/colcon_ws/src/kiss-icp/cpp -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/tessil-src/include -I/home/akyatha/colcon_ws/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3  -O3 -DNDEBUG -fPIC   -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -std=gnu++17 -o CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o -c /home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp",
+  "file": "/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp"
+}
+]

@@ -1,0 +1,71 @@
+[0.882s] Invoking command in '/home/akyatha/colcon_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox
+[0.966s] -- The C compiler identification is GNU 9.4.0
+[1.024s] -- The CXX compiler identification is GNU 9.4.0
+[1.028s] -- Check for working C compiler: /usr/bin/cc
+[1.100s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.101s] -- Detecting C compiler ABI info
+[1.174s] -- Detecting C compiler ABI info - done
+[1.187s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.190s] -- Check for working CXX compiler: /usr/bin/c++
+[1.283s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.285s] -- Detecting CXX compiler ABI info
+[1.372s] -- Detecting CXX compiler ABI info - done
+[1.396s] -- Detecting CXX compile features
+[1.397s] -- Detecting CXX compile features - done
+[1.401s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.442s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.691s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.759s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.773s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.867s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.011s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.045s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.482s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.661s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.675s] -- Looking for pthread.h
+[2.775s] -- Looking for pthread.h - found
+[2.776s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.857s] -- Looking for pthread_create in pthreads
+[2.913s] -- Looking for pthread_create in pthreads - not found
+[2.914s] -- Looking for pthread_create in pthread
+[2.978s] -- Looking for pthread_create in pthread - found
+[2.979s] -- Found Threads: TRUE  
+[3.217s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.324s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.357s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.946s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[4.050s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[4.095s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[4.130s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.150s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.192s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[4.210s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.233s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.262s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[4.343s] CMake Error at CMakeLists.txt:29 (find_package):
+[4.343s]   By not providing "Findbondcpp.cmake" in CMAKE_MODULE_PATH this project has
+[4.343s]   asked CMake to find a package configuration file provided by "bondcpp", but
+[4.343s]   CMake did not find one.
+[4.344s] 
+[4.344s]   Could not find a package configuration file provided by "bondcpp" with any
+[4.344s]   of the following names:
+[4.344s] 
+[4.344s]     bondcppConfig.cmake
+[4.344s]     bondcpp-config.cmake
+[4.344s] 
+[4.344s]   Add the installation prefix of "bondcpp" to CMAKE_PREFIX_PATH or set
+[4.344s]   "bondcpp_DIR" to a directory containing one of the above files.  If
+[4.344s]   "bondcpp" provides a separate development package or SDK, be sure it has
+[4.344s]   been installed.
+[4.344s] 
+[4.345s] 
+[4.347s] -- Configuring incomplete, errors occurred!
+[4.347s] See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[4.347s] See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeError.log".
+[4.356s] Invoked command in '/home/akyatha/colcon_ws/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox

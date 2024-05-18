@@ -1,0 +1,24 @@
+[1.778s] Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[1.892s] [100%] Built target husky_tf_broadcaster
+[2.968s] Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[3.022s] Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_tf_broadcaster
+[3.036s] -- Install configuration: ""
+[3.037s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib/husky_tf_broadcaster/husky_tf_broadcaster
+[3.037s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/launch
+[3.037s] -- Installing: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/launch/tf2_tranforms.launch.xml
+[3.038s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/husky_tf_broadcaster
+[3.038s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/husky_tf_broadcaster
+[3.038s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/ament_prefix_path.sh
+[3.038s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/ament_prefix_path.dsv
+[3.039s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/path.sh
+[3.039s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/environment/path.dsv
+[3.040s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.bash
+[3.040s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.sh
+[3.040s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.zsh
+[3.040s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/local_setup.dsv
+[3.040s] -- Installing: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.dsv
+[3.041s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/ament_index/resource_index/packages/husky_tf_broadcaster
+[3.041s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/cmake/husky_tf_broadcasterConfig.cmake
+[3.041s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/cmake/husky_tf_broadcasterConfig-version.cmake
+[3.041s] -- Up-to-date: /home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.xml
+[3.043s] Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_tf_broadcaster

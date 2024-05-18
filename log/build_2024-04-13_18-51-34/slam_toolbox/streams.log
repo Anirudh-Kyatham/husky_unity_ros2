@@ -1,0 +1,44 @@
+[0.816s] Invoking command in '/home/akyatha/colcon_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox
+[0.830s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.851s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.020s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.028s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.030s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.053s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.331s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.369s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.508s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.582s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.592s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.923s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.998s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[2.015s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.022s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.049s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[2.066s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.075s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.085s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[2.105s] CMake Error at CMakeLists.txt:29 (find_package):
+[2.105s]   By not providing "Findbondcpp.cmake" in CMAKE_MODULE_PATH this project has
+[2.105s]   asked CMake to find a package configuration file provided by "bondcpp", but
+[2.105s]   CMake did not find one.
+[2.105s] 
+[2.105s]   Could not find a package configuration file provided by "bondcpp" with any
+[2.105s]   of the following names:
+[2.105s] 
+[2.105s]     bondcppConfig.cmake
+[2.105s]     bondcpp-config.cmake
+[2.105s] 
+[2.105s]   Add the installation prefix of "bondcpp" to CMAKE_PREFIX_PATH or set
+[2.105s]   "bondcpp_DIR" to a directory containing one of the above files.  If
+[2.105s]   "bondcpp" provides a separate development package or SDK, be sure it has
+[2.105s]   been installed.
+[2.105s] 
+[2.105s] 
+[2.107s] -- Configuring incomplete, errors occurred!
+[2.107s] See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[2.107s] See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeError.log".
+[2.114s] Invoked command in '/home/akyatha/colcon_ws/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox

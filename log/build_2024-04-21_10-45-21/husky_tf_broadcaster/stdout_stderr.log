@@ -1,0 +1,58 @@
+[35m[1mScanning dependencies of target husky_tf_broadcaster[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o[0m
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In function ‘[01m[Kvoid broadcast_transform()[m[K’:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:11:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster()[m[K’
+   11 | ros::TransformBroadcaster [01;31m[Kbr[m[K;
+      |                           [01;31m[K^~[m[K
+
+In file included from [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   53 |   [01;36m[KTransformBroadcaster[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:11:42:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   11 | ros::TransformBroadcaster [01;36m[Kbr[m[K;
+      |                           [01;36m[K^~[m[K
+
+In file included from [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)[m[K’
+   49 | class [01;36m[KTransformBroadcaster[m[K{
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)[m[K’
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:12:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’?
+   12 |     geometry_msgs::[01;31m[KTransformStamped[m[K transformStamped;
+      |                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37[m[K,
+                 from [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:155:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ declared here
+  155 | using [01;36m[KTransformStamped[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+   14 |     [01;31m[KtransformStamped[m[K.header.stamp = ros::Time::now();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   14 | formStamped.header.stamp = [01;31m[Kros[m[K::Time::now();
+      |                            [01;31m[K^~~[m[K
+
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   32 |     [01;31m[Kros[m[K::init(argc, argv, "tf2_broadcaster");
+      |     [01;31m[K^~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   33 |     [01;31m[Kros[m[K::NodeHandle node;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   34 |     [01;31m[Kros[m[K::Rate rate(10.0);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:36:12:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   36 |     while ([01;31m[Knode[m[K.ok()) {
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krate[m[K’ was not declared in this scope
+   38 |         [01;31m[Krate[m[K.sleep();
+      |         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

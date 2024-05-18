@@ -1,0 +1,65 @@
+[3.844s] Invoking command in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build install --record /home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[4.107s] /home/akyatha/.local/lib/python3.8/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.107s] !!
+[4.108s] 
+[4.108s]         ********************************************************************************
+[4.108s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.108s]         versions. Please use the underscore name 'script_dir' instead.
+[4.109s] 
+[4.109s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[4.109s]         or your builds will no longer be supported.
+[4.109s] 
+[4.109s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.110s]         ********************************************************************************
+[4.110s] 
+[4.110s] !!
+[4.110s]   opt = self.warn_dash_deprecation(opt, section)
+[4.330s] running egg_info
+[4.356s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[4.358s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[4.358s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[4.358s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[4.358s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[4.570s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[4.570s] adding license file 'LICENSE'
+[4.571s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[4.571s] running build
+[4.572s] running build_py
+[4.572s] copying ros_tcp_endpoint/__init__.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.572s] copying ros_tcp_endpoint/tcp_sender.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.573s] copying ros_tcp_endpoint/service.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.573s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.574s] copying ros_tcp_endpoint/server.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.574s] copying ros_tcp_endpoint/client.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.574s] copying ros_tcp_endpoint/communication.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.574s] copying ros_tcp_endpoint/exceptions.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.574s] copying ros_tcp_endpoint/publisher.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.574s] copying ros_tcp_endpoint/subscriber.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.575s] copying ros_tcp_endpoint/unity_service.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.576s] copying ros_tcp_endpoint/thread_pauser.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[4.577s] running install
+[4.577s] /home/akyatha/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.577s] !!
+[4.577s] 
+[4.577s]         ********************************************************************************
+[4.577s]         Please avoid running ``setup.py`` directly.
+[4.578s]         Instead, use pypa/build, pypa/installer or other
+[4.578s]         standards-based tools.
+[4.578s] 
+[4.578s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.578s]         ********************************************************************************
+[4.578s] 
+[4.578s] !!
+[4.578s]   self.initialize_options()
+[4.587s] running install_lib
+[4.612s] running install_data
+[4.636s] copying resource/ros_tcp_endpoint -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[4.636s] copying package.xml -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[4.637s] copying launch/endpoint.py -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[4.637s] running install_egg_info
+[4.663s] removing '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)
+[4.663s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[4.664s] running install_scripts
+[4.742s] Installing default_server_endpoint script to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[4.743s] writing list of installed files to '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log'
+[4.794s] Invoked command in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build install --record /home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed

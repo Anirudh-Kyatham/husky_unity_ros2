@@ -1,0 +1,12 @@
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:59:14:[m[K [01;31m[Kerror: [m[K‘[01m[KStaticTransformBroadcaster[m[K’ in namespace ‘[01m[Ktf2_ros[m[K’ does not name a type; did you mean ‘[01m[KTransformBroadcaster[m[K’?
+   59 |     tf2_ros::[01;31m[KStaticTransformBroadcaster[m[K static_broadcaster_;
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |              [32m[KTransformBroadcaster[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid HuskyTransformBroadcaster::setup_static_transforms()[m[K’:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic_broadcaster_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf_broadcaster_[m[K’?
+   40 |         [01;31m[Kstatic_broadcaster_[m[K.sendTransform(sensor_plate_transform);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Ktf_broadcaster_[m[K
+make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

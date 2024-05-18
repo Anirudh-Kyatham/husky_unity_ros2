@@ -1,0 +1,22 @@
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KHuskyTransformBroadcaster::HuskyTransformBroadcaster()[m[K’:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster()[m[K’
+   14 |     HuskyTransformBroadcaster() : Node("husky_tf_broadcaster"[01;31m[K)[m[K
+      |                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:8[m[K:
+[01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:55:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   55 |   [01;36m[KStaticTransformBroadcaster[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:55:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:62:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   14 |     HuskyTransformBroadcaster() : Node("husky_tf_broadcaster"[01;36m[K)[m[K
+      |                                                              [01;36m[K^[m[K
+In file included from [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:8[m[K:
+[01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(const tf2_ros::StaticTransformBroadcaster&)[m[K’
+   51 | class [01;36m[KStaticTransformBroadcaster[m[K{
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(tf2_ros::StaticTransformBroadcaster&&)[m[K’
+[01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

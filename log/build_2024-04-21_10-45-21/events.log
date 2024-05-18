@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000560] (husky_tf_broadcaster) JobQueued: {'identifier': 'husky_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.000676] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000772] (husky_tf_broadcaster) JobStarted: {'identifier': 'husky_tf_broadcaster'}
+[0.098173] (-) TimerEvent: {}
+[0.198923] (-) TimerEvent: {}
+[0.299333] (-) TimerEvent: {}
+[0.400152] (-) TimerEvent: {}
+[0.500826] (-) TimerEvent: {}
+[0.601573] (-) TimerEvent: {}
+[0.703743] (-) TimerEvent: {}
+[0.719176] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.805642] (-) TimerEvent: {}
+[0.906038] (-) TimerEvent: {}
+[1.006469] (-) TimerEvent: {}
+[1.107066] (-) TimerEvent: {}
+[1.212688] (-) TimerEvent: {}
+[1.315254] (-) TimerEvent: {}
+[1.415871] (-) TimerEvent: {}
+[1.516756] (-) TimerEvent: {}
+[1.617104] (-) TimerEvent: {}
+[1.650022] (husky_tf_broadcaster) JobProgress: {'identifier': 'husky_tf_broadcaster', 'progress': 'cmake'}
+[1.651415] (husky_tf_broadcaster) JobProgress: {'identifier': 'husky_tf_broadcaster', 'progress': 'build'}
+[1.651482] (husky_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', '--', '-j8', '-l8'], 'cwd': '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akyatha'), ('SSH_AGENT_PID', '2356'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/akyatha'), ('OLDPWD', '/home/akyatha'), ('DESKTOP_SESSION', 'ubuntu'), ('DO14IP', '10.121.0.131'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.121.4.188'), ('MANAGERPID', '2137'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3759'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/akyatha/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'akyatha'), ('JOURNAL_STREAM', '8:48854'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akyatha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2394,unix/akyatha-G3-3579:/tmp/.ICE-unix/2394'), ('INVOCATION_ID', '49dd044f99be4fce8e2f6a5d54831263'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:531260af-f5b9-4bb4-9946-89677afec054'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://198.21.233.33:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '198.21.233.33'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[1.717370] (-) TimerEvent: {}
+[1.722096] (husky_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target husky_tf_broadcaster\x1b[0m\n'}
+[1.776722] (husky_tf_broadcaster) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o\x1b[0m\n'}
+[1.817470] (-) TimerEvent: {}
+[1.917980] (-) TimerEvent: {}
+[2.018575] (-) TimerEvent: {}
+[2.120240] (-) TimerEvent: {}
+[2.225814] (-) TimerEvent: {}
+[2.326853] (-) TimerEvent: {}
+[2.428276] (-) TimerEvent: {}
+[2.528774] (-) TimerEvent: {}
+[2.633173] (-) TimerEvent: {}
+[2.734483] (-) TimerEvent: {}
+[2.835260] (-) TimerEvent: {}
+[2.935890] (-) TimerEvent: {}
+[3.036217] (-) TimerEvent: {}
+[3.136732] (-) TimerEvent: {}
+[3.237287] (-) TimerEvent: {}
+[3.337546] (-) TimerEvent: {}
+[3.437909] (-) TimerEvent: {}
+[3.538191] (-) TimerEvent: {}
+[3.638443] (-) TimerEvent: {}
+[3.738777] (-) TimerEvent: {}
+[3.839262] (-) TimerEvent: {}
+[3.915611] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/build', 'install', '--record', '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed'], 'cwd': '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akyatha', 'SSH_AGENT_PID': '2356', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/akyatha', 'OLDPWD': '/home/akyatha', 'DESKTOP_SESSION': 'ubuntu', 'DO14IP': '10.121.0.131', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '10.121.4.188', 'MANAGERPID': '2137', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3759', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/akyatha/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'akyatha', 'JOURNAL_STREAM': '8:48854', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akyatha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2394,unix/akyatha-G3-3579:/tmp/.ICE-unix/2394', 'INVOCATION_ID': '49dd044f99be4fce8e2f6a5d54831263', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:531260af-f5b9-4bb4-9946-89677afec054', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://198.21.233.33:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'ROS_HOSTNAME': '198.21.233.33', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/akyatha/colcon_ws/install/husky_tf_broadcaster'}, 'shell': False}
+[3.939394] (-) TimerEvent: {}
+[4.039707] (-) TimerEvent: {}
+[4.107343] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid broadcast_transform()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.107556] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:11:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.107637] (husky_tf_broadcaster) StderrLine: {'line': b'   11 | ros::TransformBroadcaster \x1b[01;31m\x1b[Kbr\x1b[m\x1b[K;\n'}
+[4.107701] (husky_tf_broadcaster) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.107762] (husky_tf_broadcaster) StderrLine: {'line': b'\n'}
+[4.107821] (husky_tf_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:5\x1b[m\x1b[K:\n'}
+[4.107883] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.107952] (husky_tf_broadcaster) StderrLine: {'line': b'   53 |   \x1b[01;36m\x1b[KTransformBroadcaster\x1b[m\x1b[K(\n'}
+[4.108042] (husky_tf_broadcaster) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.108169] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.108390] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:11:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[4.109137] (husky_tf_broadcaster) StderrLine: {'line': b'   11 | ros::TransformBroadcaster \x1b[01;36m\x1b[Kbr\x1b[m\x1b[K;\n'}
+[4.109395] (husky_tf_broadcaster) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.109496] (husky_tf_broadcaster) StderrLine: {'line': b'\n'}
+[4.109565] (husky_tf_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:5\x1b[m\x1b[K:\n'}
+[4.109631] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.109706] (husky_tf_broadcaster) StderrLine: {'line': b'   49 | class \x1b[01;36m\x1b[KTransformBroadcaster\x1b[m\x1b[K{\n'}
+[4.109843] (husky_tf_broadcaster) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.109950] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[4.110043] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.110125] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[4.110201] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:12:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTransformStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.110297] (husky_tf_broadcaster) StderrLine: {'line': b'   12 |     geometry_msgs::\x1b[01;31m\x1b[KTransformStamped\x1b[m\x1b[K transformStamped;\n'}
+[4.110386] (husky_tf_broadcaster) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.110510] (husky_tf_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[4.110608] (husky_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37\x1b[m\x1b[K,\n'}
+[4.110686] (husky_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:5\x1b[m\x1b[K:\n'}
+[4.110761] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:155:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.110888] (husky_tf_broadcaster) StderrLine: {'line': b'  155 | using \x1b[01;36m\x1b[KTransformStamped\x1b[m\x1b[K =\n'}
+[4.111012] (husky_tf_broadcaster) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.114694] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformStamped\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.115024] (husky_tf_broadcaster) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[KtransformStamped\x1b[m\x1b[K.header.stamp = ros::Time::now();\n'}
+[4.115499] (husky_tf_broadcaster) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.115707] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.115980] (husky_tf_broadcaster) StderrLine: {'line': b'   14 | formStamped.header.stamp = \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time::now();\n'}
+[4.116217] (husky_tf_broadcaster) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.116312] (husky_tf_broadcaster) StderrLine: {'line': b'\n'}
+[4.116384] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.116462] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.116531] (husky_tf_broadcaster) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::init(argc, argv, "tf2_broadcaster");\n'}
+[4.116608] (husky_tf_broadcaster) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.116675] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.116745] (husky_tf_broadcaster) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::NodeHandle node;\n'}
+[4.116827] (husky_tf_broadcaster) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.116902] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.117028] (husky_tf_broadcaster) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Rate rate(10.0);\n'}
+[4.117141] (husky_tf_broadcaster) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.117771] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:36:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.117892] (husky_tf_broadcaster) StderrLine: {'line': b'   36 |     while (\x1b[01;31m\x1b[Knode\x1b[m\x1b[K.ok()) {\n'}
+[4.117978] (husky_tf_broadcaster) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.119941] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:38:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krate\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.120124] (husky_tf_broadcaster) StderrLine: {'line': b'   38 |         \x1b[01;31m\x1b[Krate\x1b[m\x1b[K.sleep();\n'}
+[4.120207] (husky_tf_broadcaster) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.127386] (ros_tcp_endpoint) StderrLine: {'line': b'/home/akyatha/.local/lib/python3.8/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[4.127699] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.128189] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.128536] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.128659] (ros_tcp_endpoint) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[4.128773] (ros_tcp_endpoint) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[4.128867] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.128961] (ros_tcp_endpoint) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[4.129141] (ros_tcp_endpoint) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[4.129229] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.129308] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[4.129395] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.129465] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.129531] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.129593] (ros_tcp_endpoint) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[4.139844] (-) TimerEvent: {}
+[4.240096] (-) TimerEvent: {}
+[4.283839] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[4.306087] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[4.306755] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[4.306930] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[4.307160] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[4.307323] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[4.340252] (-) TimerEvent: {}
+[4.440633] (-) TimerEvent: {}
+[4.515359] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[4.515829] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.517554] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[4.517981] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[4.518147] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[4.518341] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/__init__.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.518490] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/tcp_sender.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.518740] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/service.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.518938] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/default_server_endpoint.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.519098] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/server.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.519248] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/client.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.519399] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/communication.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.519553] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/exceptions.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.519704] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/publisher.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.519859] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/subscriber.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.520005] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/unity_service.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.520141] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/thread_pauser.py -> /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[4.520326] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[4.520614] (ros_tcp_endpoint) StderrLine: {'line': b'/home/akyatha/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[4.520784] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.520932] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.521072] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.521204] (ros_tcp_endpoint) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[4.521348] (ros_tcp_endpoint) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[4.521482] (ros_tcp_endpoint) StderrLine: {'line': b'        standards-based tools.\n'}
+[4.521619] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.521767] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[4.521898] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.522025] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[4.522151] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[4.522277] (ros_tcp_endpoint) StderrLine: {'line': b'  self.initialize_options()\n'}
+[4.529044] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[4.540865] (-) TimerEvent: {}
+[4.554956] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[4.577801] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[4.578294] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[4.578567] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[4.578700] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.603798] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[4.604129] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[4.605005] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[4.641072] (-) TimerEvent: {}
+[4.682700] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[4.683493] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log'\n"}
+[4.722628] (husky_tf_broadcaster) StderrLine: {'line': b'make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1\n'}
+[4.722943] (husky_tf_broadcaster) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2\n'}
+[4.723160] (husky_tf_broadcaster) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.725135] (husky_tf_broadcaster) CommandEnded: {'returncode': 2}
+[4.735751] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[4.741777] (-) TimerEvent: {}
+[4.843985] (-) TimerEvent: {}
+[4.944605] (-) TimerEvent: {}
+[5.049483] (-) TimerEvent: {}
+[5.154175] (-) TimerEvent: {}
+[5.255672] (-) TimerEvent: {}
+[5.302536] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[5.356524] (-) TimerEvent: {}
+[5.456994] (-) TimerEvent: {}
+[5.557925] (-) TimerEvent: {}
+[5.659932] (-) TimerEvent: {}
+[5.761507] (-) TimerEvent: {}
+[5.865044] (-) TimerEvent: {}
+[5.966232] (-) TimerEvent: {}
+[6.067567] (-) TimerEvent: {}
+[6.070488] (husky_tf_broadcaster) JobEnded: {'identifier': 'husky_tf_broadcaster', 'rc': 2}
+[6.081436] (-) EventReactorShutdown: {}

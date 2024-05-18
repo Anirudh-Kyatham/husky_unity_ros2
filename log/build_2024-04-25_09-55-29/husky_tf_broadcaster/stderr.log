@@ -1,0 +1,7 @@
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:72:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/TransformStamped.hpp: No such file or directory
+   72 | #include [01;31m[K<geometry_msgs/msg/TransformStamped.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

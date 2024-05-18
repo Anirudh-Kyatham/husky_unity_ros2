@@ -1,0 +1,76 @@
+<launch>
+    <!-- Base to IMU Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_imu_link" 
+          args="0.19 0 0.149 0 -1.5708 3.1416 base_link imu_link" />
+          
+    <!-- Base to Velodyne Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_velodyne_link" 
+          args="0 0 0 0 0 0 map velodyne_link" />
+          
+    <!-- Base to Front Bumper Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_front_bumper_link"
+          args="0.48 0 0.091 0 0 0 base_link front_bumper_link" />
+
+    <!-- Base to Rear Bumper Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_rear_bumper_link"
+          args="-0.48 0 0.091 0 3.14159 -3.14159 base_link rear_bumper_link" />
+
+    <!-- Base to Top Chassis Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_top_chassis_link"
+          args="0 0 0 0 0 0 base_link top_chassis_link" />
+
+    <!-- Base to User Rail Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_user_rail_link"
+          args="0.272 0 0.245 0 0 0 base_link user_rail_link" />
+
+    <!-- Top Plate to Top Plate Front Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="top_plate_to_top_plate_front_link"
+          args="0.36367 0 0.00639 0 0 0 top_plate_link top_plate_front_link" />
+
+    <!-- Top Plate to Top Plate Rear Link Transform -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="top_plate_to_top_plate_rear_link"
+          args="-0.36633 0 0.00639 0 0 0 top_plate_link top_plate_rear_link" />
+          
+    <!-- Static Transform for top_plate_link to base_link -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="top_plate_link_tf"
+          args="0.0812 0 0.245 0 0 0 base_link top_plate_link" />
+
+    <!-- Static Transform for top_plate_front_link to top_plate_link -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="top_plate_front_link_tf"
+          args="0.36367 0 0.00639 0 0 0 top_plate_link top_plate_front_link" />
+
+    <!-- Static Transform for top_plate_rear_link to top_plate_link -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="top_plate_rear_link_tf"
+          args="-0.36633 0 0.00639 0 0 0 top_plate_link top_plate_rear_link" />
+          
+    <!-- Static Transform for Front Left Wheel Link -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_front_left_wheel_link"
+          args="0.256 0.2854 0.03282 0 0 0 base_link front_left_wheel_link" />
+
+    <!-- Static Transform for Front Right Wheel Link -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_front_right_wheel_link"
+          args="0.256 -0.2854 0.03282 0 0 0 base_link front_right_wheel_link" />
+
+    <!-- Static Transform for Rear Left Wheel Link -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_rear_left_wheel_link"
+          args="-0.256 0.2854 0.03282 0 0 0 base_link rear_left_wheel_link" />
+
+    <!-- Static Transform for Rear Right Wheel Link -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_rear_right_wheel_link"
+          args="-0.256 -0.2854 0.03282 0 0 0 base_link rear_right_wheel_link" />
+          
+    <!-- Static transform from base_link to base_footprint -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_base_footprint_tf"
+          args="0 0 -0.1 0 0 0 base_link base_footprint" />
+
+    <!-- If inertial_link needs a specific offset -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_inertial_link_tf"
+          args="0 -0.085 0.062 0 0 0 base_link inertial_link" />
+       
+
+    <!-- Dynamic Transform Node -->
+    <node pkg="husky_tf_broadcaster" exec="husky_tf_broadcaster" name="husky_tf_broadcaster" />
+    
+    
+</launch>
+

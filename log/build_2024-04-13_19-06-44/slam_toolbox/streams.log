@@ -1,0 +1,71 @@
+[0.843s] Invoking command in '/home/akyatha/colcon_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox
+[0.884s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.248s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.254s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.356s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.924s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.083s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.092s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.294s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.389s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[2.418s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.921s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[3.006s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[3.062s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.074s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.107s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[3.125s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.174s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.209s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[3.253s] -- Found bondcpp: 2.1.0 (/opt/ros/foxy/share/bondcpp/cmake)
+[3.387s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[3.631s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.646s] -- Found OGRE
+[3.647s] --   static     : OFF
+[3.647s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.647s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.648s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.648s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.648s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[3.648s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.648s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[3.649s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.649s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.649s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.650s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.652s] -- Could not find freeimage library
+[3.733s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.733s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.740s] -- library: libassimp.so.5
+[3.841s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.951s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.978s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[4.548s] -- Looking for dgemm_
+[4.632s] -- Looking for dgemm_ - found
+[4.633s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libf77blas.so;/usr/lib/x86_64-linux-gnu/libatlas.so  
+[4.642s] -- A library with LAPACK API found.
+[4.652s] CMake Error at CMakeLists.txt:90 (find_package):
+[4.652s]   By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+[4.652s]   asked CMake to find a package configuration file provided by "Ceres", but
+[4.652s]   CMake did not find one.
+[4.652s] 
+[4.652s]   Could not find a package configuration file provided by "Ceres" with any of
+[4.652s]   the following names:
+[4.653s] 
+[4.653s]     CeresConfig.cmake
+[4.653s]     ceres-config.cmake
+[4.653s] 
+[4.653s]   Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+[4.653s]   "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+[4.653s]   provides a separate development package or SDK, be sure it has been
+[4.653s]   installed.
+[4.653s] 
+[4.653s] 
+[4.656s] -- Configuring incomplete, errors occurred!
+[4.656s] See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[4.656s] See also "/home/akyatha/colcon_ws/build/slam_toolbox/CMakeFiles/CMakeError.log".
+[4.665s] Invoked command in '/home/akyatha/colcon_ws/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox

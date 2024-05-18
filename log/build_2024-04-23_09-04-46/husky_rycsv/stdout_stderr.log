@@ -1,0 +1,22 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findroscpp.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "roscpp", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "roscpp" with any
+  of the following names:
+
+    roscppConfig.cmake
+    roscpp-config.cmake
+
+  Add the installation prefix of "roscpp" to CMAKE_PREFIX_PATH or set
+  "roscpp_DIR" to a directory containing one of the above files.  If "roscpp"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/akyatha/colcon_ws/build/husky_rycsv/CMakeFiles/CMakeOutput.log".

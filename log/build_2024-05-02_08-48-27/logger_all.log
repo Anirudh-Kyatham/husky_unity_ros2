@@ -1,0 +1,255 @@
+[6.279s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.279s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc57c07a940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc57c07a940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc57bd7bbb0>)
+[6.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.550s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akyatha/colcon_ws'
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[6.569s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[6.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extensions ['ignore', 'ignore_ament_install']
+[6.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extension 'ignore'
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extension 'ignore_ament_install'
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extensions ['colcon_pkg']
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extension 'colcon_pkg'
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extensions ['colcon_meta']
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extension 'colcon_meta'
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extensions ['ros']
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_rycsv) by extension 'ros'
+[6.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/husky_rycsv' with type 'ros.ament_cmake' and name 'husky_rycsv'
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extension 'ignore'
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extension 'ignore_ament_install'
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extensions ['colcon_pkg']
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extension 'colcon_pkg'
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extensions ['colcon_meta']
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extension 'colcon_meta'
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extensions ['ros']
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky_tf_broadcaster) by extension 'ros'
+[6.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/husky_tf_broadcaster' with type 'ros.ament_cmake' and name 'husky_tf_broadcaster'
+[6.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/akyatha/colcon_ws/install
+[7.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/foxy
+[7.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.717s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'cmake_args' from command line to 'None'
+[7.717s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'cmake_target' from command line to 'None'
+[7.717s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.717s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'cmake_clean_cache' from command line to 'False'
+[7.718s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'cmake_clean_first' from command line to 'False'
+[7.718s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'cmake_force_configure' from command line to 'False'
+[7.718s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'ament_cmake_args' from command line to 'None'
+[7.718s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'catkin_cmake_args' from command line to 'None'
+[7.718s] Level 5:colcon.colcon_core.verb:set package 'husky_rycsv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.718s] DEBUG:colcon.colcon_core.verb:Building package 'husky_rycsv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akyatha/colcon_ws/build/husky_rycsv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akyatha/colcon_ws/install/husky_rycsv', 'merge_install': False, 'path': '/home/akyatha/colcon_ws/src/husky_rycsv', 'symlink_install': False, 'test_result_base': None}
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'cmake_args' from command line to 'None'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'cmake_target' from command line to 'None'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[7.828s] Level 5:colcon.colcon_core.verb:set package 'husky_tf_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.828s] DEBUG:colcon.colcon_core.verb:Building package 'husky_tf_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akyatha/colcon_ws/install/husky_tf_broadcaster', 'merge_install': False, 'path': '/home/akyatha/colcon_ws/src/husky_tf_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[7.932s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.932s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akyatha/colcon_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[8.040s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.147s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akyatha/colcon_ws/src/husky_rycsv' with build type 'ament_cmake'
+[8.147s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akyatha/colcon_ws/src/husky_rycsv'
+[8.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.644s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akyatha/colcon_ws/src/husky_tf_broadcaster' with build type 'ament_cmake'
+[8.644s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akyatha/colcon_ws/src/husky_tf_broadcaster'
+[8.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.097s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[9.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[9.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[9.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[9.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[9.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akyatha/colcon_ws/build/husky_rycsv': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_rycsv -- -j8 -l8
+[9.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[9.892s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint'
+[10.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[10.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akyatha/colcon_ws/build/husky_rycsv' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_rycsv -- -j8 -l8
+[10.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_tf_broadcaster
+[10.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akyatha/colcon_ws/build/husky_rycsv': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_rycsv
+[10.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_tf_broadcaster)
+[10.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_tf_broadcaster
+[10.527s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster' for CMake module files
+[10.527s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster' for CMake config files
+[10.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_tf_broadcaster', 'cmake_prefix_path')
+[10.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/hook/cmake_prefix_path.ps1'
+[10.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/hook/cmake_prefix_path.dsv'
+[10.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/hook/cmake_prefix_path.sh'
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib'
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/bin'
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib/pkgconfig/husky_tf_broadcaster.pc'
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib/python3.8/site-packages'
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/bin'
+[10.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.ps1'
+[10.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.dsv'
+[10.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.sh'
+[10.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.bash'
+[10.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.zsh'
+[10.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/colcon-core/packages/husky_tf_broadcaster)
+[10.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_rycsv)
+[10.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akyatha/colcon_ws/build/husky_rycsv' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --install /home/akyatha/colcon_ws/build/husky_rycsv
+[10.926s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv' for CMake module files
+[10.926s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv' for CMake config files
+[10.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_rycsv', 'cmake_prefix_path')
+[11.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/hook/cmake_prefix_path.ps1'
+[11.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/hook/cmake_prefix_path.dsv'
+[11.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/hook/cmake_prefix_path.sh'
+[11.051s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/lib'
+[11.051s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/bin'
+[11.051s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/lib/pkgconfig/husky_rycsv.pc'
+[11.051s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/lib/python3.8/site-packages'
+[11.052s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/bin'
+[11.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.ps1'
+[11.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.dsv'
+[11.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.sh'
+[11.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.bash'
+[11.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.zsh'
+[11.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akyatha/colcon_ws/install/husky_rycsv/share/colcon-core/packages/husky_rycsv)
+[11.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_tf_broadcaster)
+[11.403s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster' for CMake module files
+[11.403s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster' for CMake config files
+[11.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_tf_broadcaster', 'cmake_prefix_path')
+[11.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/hook/cmake_prefix_path.ps1'
+[11.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/hook/cmake_prefix_path.dsv'
+[11.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/hook/cmake_prefix_path.sh'
+[11.529s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib'
+[11.530s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/bin'
+[11.530s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib/pkgconfig/husky_tf_broadcaster.pc'
+[11.530s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/lib/python3.8/site-packages'
+[11.530s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/bin'
+[11.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.ps1'
+[11.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.dsv'
+[11.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.sh'
+[11.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.bash'
+[11.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/husky_tf_broadcaster/package.zsh'
+[11.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akyatha/colcon_ws/install/husky_tf_broadcaster/share/colcon-core/packages/husky_tf_broadcaster)
+[11.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build install --record /home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[11.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_rycsv)
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv' for CMake module files
+[11.902s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv' for CMake config files
+[11.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_rycsv', 'cmake_prefix_path')
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/hook/cmake_prefix_path.ps1'
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/hook/cmake_prefix_path.dsv'
+[12.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/hook/cmake_prefix_path.sh'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/lib'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/bin'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/lib/pkgconfig/husky_rycsv.pc'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/lib/python3.8/site-packages'
+[12.023s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/husky_rycsv/bin'
+[12.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.ps1'
+[12.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.dsv'
+[12.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.sh'
+[12.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.bash'
+[12.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/husky_rycsv/share/husky_rycsv/package.zsh'
+[12.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akyatha/colcon_ws/install/husky_rycsv/share/colcon-core/packages/husky_rycsv)
+[12.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build install --record /home/akyatha/colcon_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[12.311s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint' for CMake module files
+[12.312s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint' for CMake config files
+[12.312s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib'
+[12.313s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/bin'
+[12.313s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[12.313s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages'
+[12.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[12.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[12.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[12.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/bin'
+[12.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[12.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[12.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[12.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[12.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[12.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[12.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[12.526s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.527s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.664s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.683s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.ps1'
+[12.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akyatha/colcon_ws/install/_local_setup_util_ps1.py'
+[12.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.ps1'
+[12.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.sh'
+[12.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akyatha/colcon_ws/install/_local_setup_util_sh.py'
+[12.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.sh'
+[13.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.bash'
+[13.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.bash'
+[13.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.zsh'
+[13.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.zsh'

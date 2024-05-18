@@ -1,0 +1,25 @@
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:61:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   61 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:11:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   11 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KHuskyTransformBroadcaster::HuskyTransformBroadcaster()[m[K’:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+   15 |         [01;31m[Ktf_broadcaster_[m[K = std::make_shared<tf2_ros::TransformBroadcaster>(this);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   16 |         [01;31m[Kpose_subscription_[m[K = this->create_subscription<geometry_msgs::msg::Pose>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Krcl_subscription_t[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid HuskyTransformBroadcaster::pose_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+   51 |         [01;31m[Ktf_broadcaster_[m[K->sendTransform(odom_to_map_transform);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K At global scope:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:61:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   61 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.000247] (husky_tf_broadcaster) JobQueued: {'identifier': 'husky_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.000315] (husky_tf_broadcaster) JobStarted: {'identifier': 'husky_tf_broadcaster'}
+[0.099265] (-) TimerEvent: {}
+[0.202049] (-) TimerEvent: {}
+[0.302645] (-) TimerEvent: {}
+[0.402830] (-) TimerEvent: {}
+[0.504988] (-) TimerEvent: {}
+[0.605532] (-) TimerEvent: {}
+[0.645673] (husky_tf_broadcaster) JobProgress: {'identifier': 'husky_tf_broadcaster', 'progress': 'cmake'}
+[0.646537] (husky_tf_broadcaster) JobProgress: {'identifier': 'husky_tf_broadcaster', 'progress': 'build'}
+[0.647436] (husky_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', '--', '-j8', '-l8'], 'cwd': '/home/akyatha/colcon_ws/build/husky_tf_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akyatha'), ('SSH_AGENT_PID', '2352'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/akyatha'), ('OLDPWD', '/home/akyatha/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('DO14IP', '10.121.0.131'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '10.121.4.188'), ('MANAGERPID', '2135'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bbb12c07c400b30423c858b661fc62a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/akyatha/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'akyatha'), ('JOURNAL_STREAM', '8:50309'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akyatha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/akyatha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/akyatha-G3-3579:@/tmp/.ICE-unix/2390,unix/akyatha-G3-3579:/tmp/.ICE-unix/2390'), ('INVOCATION_ID', '5c88a51fd6df4d3685ab01a6471a3ae4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f123ecea_2ef2_48a9_8139_b6998e3f77d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://198.21.233.33:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akyatha/colcon_ws/build/husky_tf_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bbb12c07c400b30423c858b661fc62a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '198.21.233.33'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy')]), 'shell': False}
+[0.700253] (husky_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target husky_tf_broadcaster\x1b[0m\n'}
+[0.705662] (-) TimerEvent: {}
+[0.744358] (husky_tf_broadcaster) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o\x1b[0m\n'}
+[0.805777] (-) TimerEvent: {}
+[0.906150] (-) TimerEvent: {}
+[1.006852] (-) TimerEvent: {}
+[1.107202] (-) TimerEvent: {}
+[1.207540] (-) TimerEvent: {}
+[1.308008] (-) TimerEvent: {}
+[1.408367] (-) TimerEvent: {}
+[1.508773] (-) TimerEvent: {}
+[1.609249] (-) TimerEvent: {}
+[1.709573] (-) TimerEvent: {}
+[1.810018] (-) TimerEvent: {}
+[1.910271] (-) TimerEvent: {}
+[2.010559] (-) TimerEvent: {}
+[2.110849] (-) TimerEvent: {}
+[2.211120] (-) TimerEvent: {}
+[2.311423] (-) TimerEvent: {}
+[2.411668] (-) TimerEvent: {}
+[2.511955] (-) TimerEvent: {}
+[2.513022] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHuskyTransformBroadcaster::HuskyTransformBroadcaster()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.513329] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.513436] (husky_tf_broadcaster) StderrLine: {'line': b'   14 |     HuskyTransformBroadcaster() : Node("husky_tf_broadcaster"\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.513533] (husky_tf_broadcaster) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.513628] (husky_tf_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:8\x1b[m\x1b[K:\n'}
+[2.513724] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:55:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class AllocatorT> tf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.513824] (husky_tf_broadcaster) StderrLine: {'line': b'   55 |   \x1b[01;36m\x1b[KStaticTransformBroadcaster\x1b[m\x1b[K(\n'}
+[2.513918] (husky_tf_broadcaster) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.514012] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:55:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.514115] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:14:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[2.514210] (husky_tf_broadcaster) StderrLine: {'line': b'   14 |     HuskyTransformBroadcaster() : Node("husky_tf_broadcaster"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[2.514306] (husky_tf_broadcaster) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.514444] (husky_tf_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:8\x1b[m\x1b[K:\n'}
+[2.514617] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(const tf2_ros::StaticTransformBroadcaster&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.514974] (husky_tf_broadcaster) StderrLine: {'line': b'   51 | class \x1b[01;36m\x1b[KStaticTransformBroadcaster\x1b[m\x1b[K{\n'}
+[2.515132] (husky_tf_broadcaster) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.515262] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.515380] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(tf2_ros::StaticTransformBroadcaster&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.515486] (husky_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.612048] (-) TimerEvent: {}
+[2.712357] (-) TimerEvent: {}
+[2.812662] (-) TimerEvent: {}
+[2.912968] (-) TimerEvent: {}
+[3.013305] (-) TimerEvent: {}
+[3.113570] (-) TimerEvent: {}
+[3.213931] (-) TimerEvent: {}
+[3.314193] (-) TimerEvent: {}
+[3.414509] (-) TimerEvent: {}
+[3.514978] (-) TimerEvent: {}
+[3.615464] (-) TimerEvent: {}
+[3.715912] (-) TimerEvent: {}
+[3.816208] (-) TimerEvent: {}
+[3.916442] (-) TimerEvent: {}
+[4.016672] (-) TimerEvent: {}
+[4.116987] (-) TimerEvent: {}
+[4.217220] (-) TimerEvent: {}
+[4.317547] (-) TimerEvent: {}
+[4.417995] (-) TimerEvent: {}
+[4.493364] (husky_tf_broadcaster) StderrLine: {'line': b'make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1\n'}
+[4.493874] (husky_tf_broadcaster) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2\n'}
+[4.494207] (husky_tf_broadcaster) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.496424] (husky_tf_broadcaster) CommandEnded: {'returncode': 2}
+[4.518138] (-) TimerEvent: {}
+[4.620911] (-) TimerEvent: {}
+[4.723237] (-) TimerEvent: {}
+[4.823840] (-) TimerEvent: {}
+[4.924919] (-) TimerEvent: {}
+[5.008356] (husky_tf_broadcaster) JobEnded: {'identifier': 'husky_tf_broadcaster', 'rc': 2}
+[5.019059] (-) EventReactorShutdown: {}

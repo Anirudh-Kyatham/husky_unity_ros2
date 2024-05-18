@@ -1,0 +1,8 @@
+CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+  Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDE_DIR CHOLMOD_LIBRARIES)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+  CMake/FindCHOLMOD.cmake:86 (find_package_handle_standard_args)
+  CMakeLists.txt:86 (find_package)
+
+

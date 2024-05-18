@@ -1,0 +1,35 @@
+[1.549s] Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[2.613s] [35m[1mScanning dependencies of target husky_tf_broadcaster[0m
+[2.613s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o[0m
+[3.903s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KPoseConverterNode::PoseConverterNode()[m[K’:
+[3.904s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+[3.905s]    80 |         [01;31m[Ktf_broadcaster_[m[K = std::make_shared<tf2_ros::TransformBroadcaster>(this);
+[3.906s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.906s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:80:53:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’
+[3.906s]    80 |         tf_broadcaster_ = std::make_shared<tf2_ros::[01;31m[KTransformBroadcaster[m[K>(this);
+[3.908s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.911s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:80:53:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’
+[3.911s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:80:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(PoseConverterNode*)[m[K’
+[3.912s]    80 |         tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this[01;31m[K)[m[K;
+[3.915s]       |                                                                               [01;31m[K^[m[K
+[3.916s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.917s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.919s]                  from [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:69[m[K:
+[3.919s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.920s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.920s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.920s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.921s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:80:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.922s]    80 |         tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this[01;31m[K)[m[K;
+[3.926s]       |                                                                               [01;31m[K^[m[K
+[3.930s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[3.930s]    81 |         [01;31m[Ksubscription_[m[K = this->create_subscription<geometry_msgs::msg::Pose>(
+[3.931s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.931s]       |         [32m[Krcl_subscription_t[m[K
+[3.931s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:82:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseMirrorTransformer[m[K’ has not been declared
+[3.932s]    82 |             "/unity_pose", 10, std::bind(&[01;31m[KPoseMirrorTransformer[m[K::pose_callback, this, std::placeholders::_1));
+[3.933s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.589s] make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+[4.590s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+[4.590s] make: *** [Makefile:141: all] Error 2
+[4.593s] Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8

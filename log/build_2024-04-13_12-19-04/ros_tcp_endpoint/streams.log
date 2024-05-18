@@ -1,0 +1,21 @@
+[0.403s] Invoking command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint': /usr/bin/cmake /home/akyatha/colcon_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/ros_tcp_endpoint
+[0.428s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.428s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.428s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.428s]   CMake did not find one.
+[0.428s] 
+[0.428s]   Could not find a package configuration file provided by "catkin" with any
+[0.428s]   of the following names:
+[0.429s] 
+[0.429s]     catkinConfig.cmake
+[0.429s]     catkin-config.cmake
+[0.429s] 
+[0.429s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.429s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.429s]   provides a separate development package or SDK, be sure it has been
+[0.429s]   installed.
+[0.429s] 
+[0.429s] 
+[0.429s] -- Configuring incomplete, errors occurred!
+[0.429s] See also "/home/akyatha/colcon_ws/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[0.430s] Invoked command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /home/akyatha/colcon_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/ros_tcp_endpoint

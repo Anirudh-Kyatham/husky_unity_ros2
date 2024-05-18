@@ -1,0 +1,11 @@
+[2.110s] Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[3.367s] [35m[1mScanning dependencies of target husky_tf_broadcaster[0m
+[3.369s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o[0m
+[4.826s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid HuskyTransformBroadcaster::pose_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.826s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:27:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[4.827s]    27 |         odom_to_map_transform.header.stamp = msg->[01;31m[Kheader[m[K.stamp;
+[4.827s]       |                                                   [01;31m[K^~~~~~[m[K
+[7.453s] make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+[7.454s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+[7.454s] make: *** [Makefile:141: all] Error 2
+[7.458s] Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8

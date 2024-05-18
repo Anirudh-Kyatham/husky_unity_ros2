@@ -1,0 +1,5 @@
+source;share/kiss_icp/local_setup.bash
+source;share/kiss_icp/local_setup.dsv
+source;share/kiss_icp/local_setup.ps1
+source;share/kiss_icp/local_setup.sh
+source;share/kiss_icp/local_setup.zsh

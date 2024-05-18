@@ -1,0 +1,69 @@
+[1.702s] Invoking command in '/home/akyatha/colcon_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake /home/akyatha/colcon_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/kiss_icp
+[2.886s] -- The CXX compiler identification is GNU 9.4.0
+[2.887s] -- Check for working CXX compiler: /usr/bin/c++
+[2.888s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.889s] -- Detecting CXX compiler ABI info
+[2.890s] -- Detecting CXX compiler ABI info - done
+[2.892s] -- Detecting CXX compile features
+[2.892s] -- Detecting CXX compile features - done
+[3.959s] -- The C compiler identification is GNU 9.4.0
+[3.965s] -- Check for working C compiler: /usr/bin/cc
+[4.066s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.068s] -- Detecting C compiler ABI info
+[4.181s] -- Detecting C compiler ABI info - done
+[4.203s] -- Detecting C compile features
+[4.203s] -- Detecting C compile features - done
+[4.210s] -- Turning basic logging ON
+[5.503s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.549s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.550s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.952s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[6.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.106s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.319s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.372s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.803s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.947s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.192s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.210s] -- Looking for C++ include pthread.h
+[7.420s] -- Looking for C++ include pthread.h - found
+[7.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.579s] -- Looking for pthread_create in pthreads
+[7.705s] -- Looking for pthread_create in pthreads - not found
+[7.706s] -- Looking for pthread_create in pthread
+[7.837s] -- Looking for pthread_create in pthread - found
+[7.838s] -- Found Threads: TRUE  
+[8.133s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[8.325s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.504s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[9.323s] -- Configuring done
+[9.387s] -- Generating done
+[9.390s] -- Build files have been written to: /home/akyatha/colcon_ws/build/kiss_icp
+[9.406s] Invoked command in '/home/akyatha/colcon_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake /home/akyatha/colcon_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/kiss_icp
+[9.411s] Invoking command in '/home/akyatha/colcon_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/kiss_icp -- -j8 -l8
+[9.479s] [35m[1mScanning dependencies of target kiss_icp_node[0m
+[9.479s] [35m[1mScanning dependencies of target kiss_icp_core[0m
+[9.481s] [35m[1mScanning dependencies of target kiss_icp_metrics[0m
+[10.028s] [  7%] [32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o[0m
+[10.051s] [ 28%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o[0m
+[10.052s] [ 28%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o[0m
+[10.052s] [ 28%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Deskew.cpp.o[0m
+[10.053s] [ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o[0m
+[10.058s] [ 42%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o[0m
+[10.084s] [ 50%] [32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o[0m
+[13.188s] [01m[K/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp:[m[K In constructor ‘[01m[Kkiss_icp::Registration::Registration(int, double, int)[m[K’:
+[13.188s] [01m[K/home/akyatha/colcon_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp:174:69:[m[K [01;31m[Kerror: [m[K‘[01m[Ktbb::info[m[K’ has not been declared
+[13.188s]   174 |       max_num_threads_(max_num_threads > 0 ? max_num_threads : tbb::[01;31m[Kinfo[m[K::default_concurrency()) {
+[13.188s]       |                                                                     [01;31m[K^~~~[m[K
+[15.187s] [ 57%] [32m[1mLinking CXX executable kiss_icp_node[0m
+[15.470s] [ 57%] Built target kiss_icp_node
+[17.642s] make[2]: *** [kiss_icp/core/CMakeFiles/kiss_icp_core.dir/build.make:63: kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o] Error 1
+[17.642s] make[1]: *** [CMakeFiles/Makefile2:338: kiss_icp/core/CMakeFiles/kiss_icp_core.dir/all] Error 2
+[17.643s] make[1]: *** Waiting for unfinished jobs....
+[27.750s] [ 64%] [32m[1mLinking CXX static library libkiss_icp_metrics.a[0m
+[27.814s] [ 64%] Built target kiss_icp_metrics
+[27.815s] make: *** [Makefile:141: all] Error 2
+[27.819s] Invoked command in '/home/akyatha/colcon_ws/build/kiss_icp' returned '2': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/kiss_icp -- -j8 -l8

@@ -1,0 +1,169 @@
+[7.415s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[7.416s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcf691bad30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcf691bad30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcf691c39a0>)
+[7.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.795s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akyatha/colcon_ws'
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.834s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[7.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[7.842s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[7.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[7.845s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[7.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.846s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.747s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 259 installed packages in /opt/ros/foxy
+[8.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[9.306s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.306s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akyatha/colcon_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akyatha/colcon_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint', 'symlink_install': True, 'test_result_base': None}
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[9.407s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.407s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akyatha/colcon_ws/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akyatha/colcon_ws/install/slam_toolbox', 'merge_install': False, 'path': '/home/akyatha/colcon_ws/src/slam_toolbox', 'symlink_install': True, 'test_result_base': None}
+[9.511s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.615s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[9.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[9.738s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[9.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[9.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[9.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.073s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akyatha/colcon_ws/src/slam_toolbox' with build type 'ament_cmake'
+[10.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akyatha/colcon_ws/src/slam_toolbox'
+[10.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.587s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akyatha/colcon_ws/src/ROS-TCP-Endpoint'
+[10.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akyatha/colcon_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox
+[11.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build --no-deps install_data
+[12.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath_develop')
+[12.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build --no-deps install_data
+[12.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.ps1'
+[12.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.dsv'
+[12.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.sh'
+[12.856s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint' for CMake module files
+[12.856s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint' for CMake config files
+[12.858s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib'
+[12.858s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/bin'
+[12.858s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[12.858s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages'
+[12.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[12.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[12.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[12.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[12.982s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/bin'
+[12.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[13.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[13.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[13.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[13.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[13.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[13.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[14.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akyatha/colcon_ws/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/slam_toolbox
+[14.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[14.859s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/slam_toolbox' for CMake module files
+[14.859s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/slam_toolbox' for CMake config files
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/slam_toolbox/bin'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/slam_toolbox/lib/python3.8/site-packages'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/akyatha/colcon_ws/install/slam_toolbox/bin'
+[14.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akyatha/colcon_ws/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/slam_toolbox/share/slam_toolbox/package.sh'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/slam_toolbox/share/slam_toolbox/package.bash'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/akyatha/colcon_ws/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[14.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akyatha/colcon_ws/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[14.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[14.974s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.097s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.120s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.228s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.ps1'
+[15.229s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akyatha/colcon_ws/install/_local_setup_util_ps1.py'
+[15.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.ps1'
+[15.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.sh'
+[15.336s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akyatha/colcon_ws/install/_local_setup_util_sh.py'
+[15.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.sh'
+[15.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.bash'
+[15.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.bash'
+[15.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akyatha/colcon_ws/install/local_setup.zsh'
+[15.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akyatha/colcon_ws/install/setup.zsh'

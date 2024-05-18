@@ -1,0 +1,22 @@
+[1.540s] Invoking command in '/home/akyatha/colcon_ws/build/husky_rycsv': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_rycsv -- -j8 -l8
+[1.567s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.593s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.781s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.782s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.805s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.011s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.093s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.159s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.159s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[2.159s]   before
+[2.161s] Call Stack (most recent call first):
+[2.162s]   CMakeLists.txt:40 (ament_target_dependencies)
+[2.162s] 
+[2.162s] 
+[2.163s] -- Configuring incomplete, errors occurred!
+[2.164s] See also "/home/akyatha/colcon_ws/build/husky_rycsv/CMakeFiles/CMakeOutput.log".
+[2.165s] See also "/home/akyatha/colcon_ws/build/husky_rycsv/CMakeFiles/CMakeError.log".
+[2.165s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[2.230s] Invoked command in '/home/akyatha/colcon_ws/build/husky_rycsv' returned '2': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/husky_tf_broadcaster:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy:/home/akyatha/colcon_ws/install/husky_rycsv /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_rycsv -- -j8 -l8

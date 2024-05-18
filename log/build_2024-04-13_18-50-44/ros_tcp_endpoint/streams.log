@@ -1,0 +1,61 @@
+[2.218s] Invoking command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build --no-deps install_data
+[2.347s] /home/akyatha/.local/lib/python3.8/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.347s] !!
+[2.347s] 
+[2.347s]         ********************************************************************************
+[2.347s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.347s]         versions. Please use the underscore name 'script_dir' instead.
+[2.347s] 
+[2.347s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[2.347s]         or your builds will no longer be supported.
+[2.348s] 
+[2.348s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.348s]         ********************************************************************************
+[2.348s] 
+[2.348s] !!
+[2.348s]   opt = self.warn_dash_deprecation(opt, section)
+[2.589s] running develop
+[2.589s] /home/akyatha/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.590s] !!
+[2.590s] 
+[2.590s]         ********************************************************************************
+[2.590s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.590s]         Instead, use pypa/build, pypa/installer or other
+[2.590s]         standards-based tools.
+[2.590s] 
+[2.590s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.590s]         ********************************************************************************
+[2.590s] 
+[2.590s] !!
+[2.590s]   easy_install.initialize_options(self)
+[2.621s] /home/akyatha/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.621s] !!
+[2.621s] 
+[2.621s]         ********************************************************************************
+[2.621s]         Please avoid running ``setup.py`` directly.
+[2.622s]         Instead, use pypa/build, pypa/installer or other
+[2.622s]         standards-based tools.
+[2.622s] 
+[2.622s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.622s]         ********************************************************************************
+[2.622s] 
+[2.622s] !!
+[2.622s]   self.initialize_options()
+[2.812s] running egg_info
+[2.829s] writing ros_tcp_endpoint.egg-info/PKG-INFO
+[2.829s] writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+[2.830s] writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+[2.830s] writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+[2.830s] writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+[2.867s] reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.868s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.926s] running build_ext
+[2.926s] Creating /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[2.927s] Installing default_server_endpoint script to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[2.927s] 
+[2.927s] Installed /home/akyatha/colcon_ws/build/ros_tcp_endpoint
+[2.927s] running install_data
+[2.927s] copying resource/ros_tcp_endpoint -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[2.927s] copying package.xml -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[2.928s] copying launch/endpoint.py -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[2.958s] Invoked command in '/home/akyatha/colcon_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/akyatha/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akyatha/colcon_ws/build/ros_tcp_endpoint/build --no-deps install_data

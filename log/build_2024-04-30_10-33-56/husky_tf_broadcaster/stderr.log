@@ -1,0 +1,4 @@
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid HuskyTransformBroadcaster::pose_callback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:43:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcorrected_quat[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   43 |         tf2::Quaternion [01;35m[Kcorrected_quat[m[K = tf2_unity_quat * corrective_rotation  ;
+      |                         [01;35m[K^~~~~~~~~~~~~~[m[K

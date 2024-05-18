@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing ros_tcp_endpoint.egg-info/PKG-INFO
+writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros-tcp-endpoint.egg-link (link to .)
+Installing default_server_endpoint script to /home/akyatha/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+
+Installed /home/akyatha/colcon_ws/build/ros_tcp_endpoint
+running install_data
+copying resource/ros_tcp_endpoint -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+copying package.xml -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+copying launch/endpoint.py -> /home/akyatha/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch

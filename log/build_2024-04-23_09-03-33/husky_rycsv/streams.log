@@ -1,0 +1,25 @@
+[1.295s] Invoking command in '/home/akyatha/colcon_ws/build/husky_rycsv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/husky_rycsv -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/husky_rycsv
+[1.884s] CMake Error at CMakeLists.txt:21 (find_package):
+[1.884s]   By not providing "Findroscpp.cmake" in CMAKE_MODULE_PATH this project has
+[1.884s]   asked CMake to find a package configuration file provided by "roscpp", but
+[1.885s]   CMake did not find one.
+[1.885s] 
+[1.886s]   Could not find a package configuration file provided by "roscpp" with any
+[1.887s]   of the following names:
+[1.887s] 
+[1.888s]     roscppConfig.cmake
+[1.888s]     roscpp-config.cmake
+[1.888s] 
+[1.889s]   Add the installation prefix of "roscpp" to CMAKE_PREFIX_PATH or set
+[1.890s]   "roscpp_DIR" to a directory containing one of the above files.  If "roscpp"
+[1.891s]   provides a separate development package or SDK, be sure it has been
+[1.891s]   installed.
+[1.891s] 
+[1.892s] 
+[1.893s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.894s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.894s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.895s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.895s] -- Configuring incomplete, errors occurred!
+[1.896s] See also "/home/akyatha/colcon_ws/build/husky_rycsv/CMakeFiles/CMakeOutput.log".
+[1.898s] Invoked command in '/home/akyatha/colcon_ws/build/husky_rycsv' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/husky_rycsv -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/husky_rycsv

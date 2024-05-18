@@ -1,0 +1,71 @@
+[0.650s] Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/husky_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/husky_tf_broadcaster
+[1.062s] -- The C compiler identification is GNU 9.4.0
+[1.351s] -- The CXX compiler identification is GNU 9.4.0
+[1.368s] -- Check for working C compiler: /usr/bin/cc
+[1.479s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.481s] -- Detecting C compiler ABI info
+[1.580s] -- Detecting C compiler ABI info - done
+[1.594s] -- Detecting C compile features
+[1.594s] -- Detecting C compile features - done
+[1.602s] -- Check for working CXX compiler: /usr/bin/c++
+[1.712s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.714s] -- Detecting CXX compiler ABI info
+[1.815s] -- Detecting CXX compiler ABI info - done
+[1.832s] -- Detecting CXX compile features
+[1.833s] -- Detecting CXX compile features - done
+[1.846s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.913s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.914s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.387s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.651s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.842s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.905s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.310s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.327s] -- Looking for pthread.h
+[3.454s] -- Looking for pthread.h - found
+[3.455s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.548s] -- Looking for pthread_create in pthreads
+[3.620s] -- Looking for pthread_create in pthreads - not found
+[3.621s] -- Looking for pthread_create in pthread
+[3.709s] -- Looking for pthread_create in pthread - found
+[3.710s] -- Found Threads: TRUE  
+[4.001s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.082s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.845s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[4.874s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.892s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.939s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.109s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.111s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.111s] -- Configured cppcheck include dirs: 
+[5.111s] -- Configured cppcheck exclude dirs and/or files: 
+[5.113s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.113s] -- Configured cpplint exclude dirs and/or files: 
+[5.114s] -- Added test 'lint_cmake' to check CMake code style
+[5.118s] -- Added test 'uncrustify' to check C / C++ code style
+[5.118s] -- Configured uncrustify additional arguments: 
+[5.120s] -- Added test 'xmllint' to check XML markup files
+[5.137s] -- Configuring done
+[5.160s] -- Generating done
+[5.161s] -- Build files have been written to: /home/akyatha/colcon_ws/build/husky_tf_broadcaster
+[5.172s] Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /home/akyatha/colcon_ws/src/husky_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/akyatha/colcon_ws/install/husky_tf_broadcaster
+[5.174s] Invoking command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
+[5.235s] [35m[1mScanning dependencies of target husky_tf_broadcaster[0m
+[5.843s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o[0m
+[7.756s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:59:14:[m[K [01;31m[Kerror: [m[K‘[01m[KStaticTransformBroadcaster[m[K’ in namespace ‘[01m[Ktf2_ros[m[K’ does not name a type; did you mean ‘[01m[KTransformBroadcaster[m[K’?
+[7.756s]    59 |     tf2_ros::[01;31m[KStaticTransformBroadcaster[m[K static_broadcaster_;
+[7.756s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.756s]       |              [32m[KTransformBroadcaster[m[K
+[7.774s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid HuskyTransformBroadcaster::setup_static_transforms()[m[K’:
+[7.774s] [01m[K/home/akyatha/colcon_ws/src/husky_tf_broadcaster/src/husky_tf_broadcaster.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic_broadcaster_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf_broadcaster_[m[K’?
+[7.774s]    40 |         [01;31m[Kstatic_broadcaster_[m[K.sendTransform(sensor_plate_transform);
+[7.775s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.775s]       |         [32m[Ktf_broadcaster_[m[K
+[9.787s] make[2]: *** [CMakeFiles/husky_tf_broadcaster.dir/build.make:63: CMakeFiles/husky_tf_broadcaster.dir/src/husky_tf_broadcaster.cpp.o] Error 1
+[9.787s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/husky_tf_broadcaster.dir/all] Error 2
+[9.787s] make: *** [Makefile:141: all] Error 2
+[9.790s] Invoked command in '/home/akyatha/colcon_ws/build/husky_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/home/akyatha/colcon_ws/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /home/akyatha/colcon_ws/build/husky_tf_broadcaster -- -j8 -l8
