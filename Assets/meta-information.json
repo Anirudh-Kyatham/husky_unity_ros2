@@ -1,0 +1,16 @@
+{
+    "robots": [
+        {
+            "name": "Husky",
+            "type": "mobile robot",
+            "manufacturer": "Clearpath Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/clearpathHusky.urdf"
+            ],
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
+            "id": 15
+        }
+    ]
+}
